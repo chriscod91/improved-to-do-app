@@ -1,0 +1,100 @@
+.h1-header{
+    color: rgb(255, 255, 255);
+    
+}
+
+body{
+    height: 100vh;
+    background: #4c9ad2;
+}
+
+#input-item{
+    width: 40%;
+    min-width: 45px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius:10px;
+    
+}
+
+#todoInput{
+    position: relative;
+    padding: 30px 20px;
+}
+
+#todoInput input{
+    width: 75%;
+    height: 45px;
+    font-family: 'poppins' ,sans-serif;
+    font-size: 15px;
+    border: 2px solid #b0b0b0;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#todoInput input:focus{
+    outline: none;
+    border-color: #4c9ad2;
+}
+
+#todoInput button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #4c9ad2;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+#list{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.tasks{
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+
+.tasks span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.tasks button{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
